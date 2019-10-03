@@ -9,6 +9,11 @@
         Intercom
       </h2>
       <div class="links">
+        <nuxt-link to="intercom-main">
+          <md-button class="md-primary md-raised">
+            Home Page
+          </md-button>
+        </nuxt-link>
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>

@@ -23,11 +23,14 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: 'vue-material/dist/vue-material.min.css', lang: 'css' },
+    { src: '~/assets/theme.scss', lang: 'scss' } // include vue-material theme engine
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/materialize.js'
   ],
   /*
   ** Nuxt.js dev-modules
