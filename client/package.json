@@ -4,6 +4,9 @@
   "description": "Intercom",
   "author": "Sim Kern Cheh",
   "private": true,
+  "standard": {
+    "parser": "babel-eslint"
+  },
   "scripts": {
     "dev": "node_modules/.bin/nuxt",
     "build": "node_modules/.bin/nuxt build",
@@ -26,6 +29,8 @@
     "@nuxtjs/eslint-module": "^1.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "standard": "^14.3.1"
   }
