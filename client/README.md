@@ -1,6 +1,7 @@
-# intercom
+# Intercom
 
-> Intercome
+Completely personal project...adoption of any sort is at your own risk.
+Absolutely no guarantees on code quality either :)
 
 ## Build Setup
 
